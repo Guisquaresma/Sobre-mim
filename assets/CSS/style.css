@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    background-color: #ffffff;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #2C3E50;
+    color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.perfil {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.contato, .educacao, .linguagem {
+    margin-bottom: 20px;
+}
+
+.contato h2, .educacao h2, .linguagem h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-left: 250px;
+}
+
+.experiencia {
+    margin-bottom: 40px;
+}
+
+.about h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.experience h2, .skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 20px;
+    color: #2980B9;
+    margin-bottom: 5px;
+}
+
+.job h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skills p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.skills strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
